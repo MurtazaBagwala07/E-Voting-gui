@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="votingStyle.css">
+    <title>Voting Page</title>
+</head>
+<body>
+    <h1>Voting page</h1>
+    <h3>BJP</h3><div id="countBJP">0</div>
+    <h3>Congress</h3><div id="countCongress">0</div>
+    <h3>AAP</h3><div id="countAAP">0</div>
+    
+    <form >
+        <label>Parties</label>
+        <select name="parties" id="parties">
+            <option value="BJP">BJP</option>
+            <option value="Congress">Congress</option>
+            <option value="AAP">AAP</option>
+          </select>
+          <button id="submit" type="submit">Submit Vote</button>
+    </form>
+    <script src="voting.js"></script>
+</body>
+</html>
