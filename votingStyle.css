@@ -1,5 +1,5 @@
 body{
-    background-color: royalblue;
+    background-color:lightseagreen;
 }
 
 form{
@@ -7,7 +7,7 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
 }
 h1{
    
@@ -16,7 +16,7 @@ h1{
 h1,h3,div{
     text-align: center;
 
-    color:orange
+    color:black
 }
 div{
     font-size: 3rem;
@@ -32,11 +32,17 @@ label {
 }
 select{
     margin: 1rem;
-    width: 5rem;
+    width: 10rem;
+    height: 2rem;
+
 }
 
 button{
     width: 8rem;
+    background-color: white;
+    color: lightseagreen;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 p{
@@ -44,4 +50,9 @@ p{
     font-size: 2rem;
     color: white;
     display: none;
+    font-weight: bolder;
+}
+
+img{
+    width: 40px;
 }
