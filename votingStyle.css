@@ -37,7 +37,7 @@ select{
 
 }
 
-button{
+#id{
     width: 8rem;
     background-color: white;
     color: lightseagreen;
@@ -55,4 +55,8 @@ p{
 
 img{
     width: 40px;
+}
+
+.details{
+    margin-left: 50%;
 }

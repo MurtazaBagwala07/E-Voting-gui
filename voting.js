@@ -4,6 +4,9 @@ const bjp =document.querySelector("#countBJP")
 const congress =document.querySelector("#countCongress")
 const aap =document.querySelector("#countAAP")
 const sVote = document.querySelector("#success")
+const bjpD= document.querySelector("#bjpD")
+const congressD= document.querySelector("#congressD")
+const aapD= document.querySelector("#aapD")
 
 
 function addVote(e){
@@ -26,5 +29,21 @@ function addVote(e){
         }
         sVote.style.display="block";
 }
+
+function bjpDetails(){
+    alert("Party Leader : Narendra Modi")
+}
+
+function congressDetails(){
+    alert("Party Leader : Rahul Gandhi")
+}
+function aapDetails(){
+    alert("Party Leader : Arvind Kejriwal")
+}
+
+
+bjpD.addEventListener('click',bjpDetails)
+congressD.addEventListener('click',congressDetails)
+aapD.addEventListener('click',aapDetails)
 
 btn.addEventListener('click',addVote)

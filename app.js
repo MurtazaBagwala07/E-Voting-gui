@@ -2,6 +2,8 @@ const btn =document.querySelector("#submit-btn");
 const uName= document.querySelector("#username");
 const uAge= document.querySelector("#age")
 const uPassword= document.querySelector("#password")
+const bjpD = document.querySelector("#bjpD")
+
 
 const users=[
     {
@@ -22,7 +24,6 @@ const users=[
 
 ]
 
-
 function checkpassword(e){
     e.preventDefault();
     
@@ -35,6 +36,5 @@ function checkpassword(e){
     
     
 }
-
 
 btn.addEventListener('click',checkpassword)
