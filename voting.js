@@ -3,6 +3,7 @@ const party = document.querySelector("#parties")
 const bjp =document.querySelector("#countBJP")
 const congress =document.querySelector("#countCongress")
 const aap =document.querySelector("#countAAP")
+const sVote = document.querySelector("#success")
 
 
 function addVote(e){
@@ -23,6 +24,7 @@ function addVote(e){
             btn.disabled=true;
         btn.textContent="Voted"
         }
+        sVote.style.display="block";
 }
 
 btn.addEventListener('click',addVote)

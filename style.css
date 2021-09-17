@@ -1,7 +1,9 @@
 body{
     box-sizing: border-box;
-    
+    background-image: url("voting.jpg");
+    background-size: 150px 1200 ;
 }
+
 
 h1{
     text-align: center;
@@ -12,19 +14,26 @@ form{
     flex-direction: column;
     align-items: center;
     border: 3px solid black;
-    width: 30rem;
-    height: 15rem;
     margin: auto;
+    width: 25rem;
 }
 
 label{
     width: 20rem;
     margin: 5px;
+    font-weight: bolder;
+    color: black;
+    font-size: 2rem;
 }
-input{
-    width: 20rem;
-    margin: 3px;
-}
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
 button{
     margin-top: 10px;
